@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Layout 1</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css"> 
     <style>
-      /* Doe hier jouw ding! */
+
+      body{
+        display:grid;
+        gap:0px;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        
+      }
     </style>
   </head>
   <body id="advanced-layout-1">
-
-    <header><h1>Advanced Layout 1</h1></header>
-
+    <header><h1>Advanced Layout</h1></header>
+   
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
-
+    
     <!-- Kopieer en mix zoveel als je nodig hebt -->
     <section class="yellow"></section>
     <section class="black"></section>
@@ -25,7 +31,6 @@
     <section class="cyan"></section>
     <section class="magenta"></section>
     <section class="yellow"></section>
-
     <footer></footer>
 
   </body>
